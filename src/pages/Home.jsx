@@ -57,11 +57,9 @@ export default function Home() {
 
       <section className="section alt" id="founder">
         <div className="container founder">
-          <img src={founder.image} alt={founder.name[lang]} />
           <div>
             <SectionTitle title={founder.name[lang]} subtitle={founder.role[lang]} />
             <p className="lead">{founder.text[lang]}</p>
-            <p className="muted small">{founder.source}</p>
           </div>
         </div>
       </section>

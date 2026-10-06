@@ -1,5 +1,4 @@
 // Content data lives here. Edit in one place. Items hold bn/en variants.
-const W = (file) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}`
 
 export const founder = {
   name: { bn: 'শাহ সুফী নেছারুদ্দীন আহমদ', en: 'Shah Sufi Nesaruddin Ahmad' },
@@ -8,8 +7,6 @@ export const founder = {
     bn: 'শাহ সুফী নেছারুদ্দীন আহমদ ছারছীনার বিখ্যাত দ্বীনি ব্যক্তিত্ব। তিনি কলকাতা ও মক্কায় পড়াশোনা করে দ্বীনি শিক্ষা ও তাসাউফ প্রচারে নিজেকে নিয়োজিত করেন। তারই হাতে দারুসসুন্নত মাদ্রাসার ভিত্তি গড়ে ওঠে এবং দরবার শরীফের শিক্ষা, কুতুবখানা ও প্রকাশনা কার্যক্রম সম্প্রসারিত হয়।',
     en: 'Shah Sufi Nesaruddin Ahmad was a celebrated religious figure from Sarsina. He studied in Calcutta and Makkah and dedicated his life to teaching Islam and Sufism. The Darussunnat Madrasa was founded in his tradition, and the Darbar’s teaching, library and publishing gradually expanded.',
   },
-  image: W('শাহ আবু নছর নেছারুদ্দীন আহমদ হুসাইন.jpg'),
-  source: 'Wikimedia Commons',
 }
 
 export const links = {
